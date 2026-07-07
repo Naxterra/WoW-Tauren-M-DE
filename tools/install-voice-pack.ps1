@@ -2,7 +2,7 @@ param(
     [Parameter(Mandatory = $true)]
     [string] $SourceDir,
 
-    [ValidateSet("male", "female")]
+    [ValidateSet("male")]
     [string] $Sex = "male",
 
     [string] $AddonDir = ".\NaxVoiceDE",

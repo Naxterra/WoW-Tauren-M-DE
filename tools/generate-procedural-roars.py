@@ -61,7 +61,6 @@ def make_roar(path, base_freq, duration, seed):
 def main():
     addon_dir = Path("NaxVoiceDE")
     make_roar(addon_dir / "Sounds" / "male" / "emote_roar_01.wav", 58, 1.55, 1001)
-    make_roar(addon_dir / "Sounds" / "female" / "emote_roar_01.wav", 72, 1.35, 2002)
 
 
 if __name__ == "__main__":

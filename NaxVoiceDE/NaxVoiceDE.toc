@@ -6,5 +6,4 @@
 ## SavedVariables: NaxVoiceDEDB
 
 TaurenMale_DE.lua
-TaurenFemale_DE.lua
 Core.lua

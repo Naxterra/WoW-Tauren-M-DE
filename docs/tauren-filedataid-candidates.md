@@ -92,62 +92,6 @@ These are strong candidates from the listfile, but still need in-game verificati
 | 542922 | `sound/character/tauren/taurenmaleerrormessages/taurenmale_err_inventoryfull01.ogg` |
 | 542931 | `sound/character/tauren/taurenmaleerrormessages/taurenmale_err_inventoryfull02.ogg` |
 
-## Female player exertions
-
-| FileDataID | Path |
-| --- | --- |
-| 542429 | `sound/character/playerexertions/taurenfemalefinal/taurenfemalefinalwoundc.ogg` |
-| 542430 | `sound/character/playerexertions/taurenfemalefinal/taurenfemalefinalattackb.ogg` |
-| 542431 | `sound/character/playerexertions/taurenfemalefinal/taurenfemalefinalwounda.ogg` |
-| 542432 | `sound/character/playerexertions/taurenfemalefinal/taurenfemalefinalwoundb.ogg` |
-| 542433 | `sound/character/playerexertions/taurenfemalefinal/taurenfemalefinalattackc.ogg` |
-| 542434 | `sound/character/playerexertions/taurenfemalefinal/taurenfemalefinalattacka.ogg` |
-| 542435 | `sound/character/playerexertions/taurenfemalefinal/taurenfemalefinalwoundcrita.ogg` |
-| 542436 | `sound/character/playerexertions/taurenfemalefinal/taurenfemalefinalland.ogg` |
-| 542437 | `sound/character/playerexertions/taurenfemalefinal/taurenfemalefinalattackd.ogg` |
-| 542438 | `sound/character/playerexertions/taurenfemalefinal/taurenfemalefinaljump.ogg` |
-| 542439 | `sound/character/playerexertions/taurenfemalefinal/taurenfemalefinaldeatha.ogg` |
-| 542511 | `sound/character/playerroars/characterroarstaurenfemale.ogg` |
-
-## Female emotes and combat barks
-
-| FileDataID | Path |
-| --- | --- |
-| 542800 | `sound/character/tauren/female/mtaurenfemaledeathvoxa.ogg` |
-| 542801 | `sound/character/tauren/female/mtaurenfemalewoundvoxa.ogg` |
-| 542802 | `sound/character/tauren/female/mtaurenfemalewoundcriticalvoxa.ogg` |
-| 542803 | `sound/character/tauren/female/taurenfemalekiss01.ogg` |
-| 542805 | `sound/character/tauren/female/taurenfemalechicken01.ogg` |
-| 542806 | `sound/character/tauren/female/taurenfemalelaugh01.ogg` |
-| 542811 | `sound/character/tauren/female/taurenfemaleyawn01.ogg` |
-| 542813 | `sound/character/tauren/female/taurenfemalesigh01.ogg` |
-| 542815 | `sound/character/tauren/female/taurenfemalecry01.ogg` |
-| 542818 | `sound/character/tauren/female/taurenfemalechoochoo01.ogg` |
-| 542820 | `sound/character/tauren/female/taurenfemalemoo01.ogg` |
-| 1384965 | `sound/character/tauren/female/vo_taurenfemale_oops_01.ogg` |
-| 1384966 | `sound/character/tauren/female/vo_taurenfemale_sorry_01.ogg` |
-| 1384967 | `sound/character/tauren/female/vo_taurenfemale_taunt_01.ogg` |
-| 1384968 | `sound/character/tauren/female/vo_taurenfemale_threaten_01.ogg` |
-| 1384969 | `sound/character/tauren/female/vo_taurenfemale_whoa_01.ogg` |
-| 1387399 | `sound/character/tauren/female/vo_taurenfemale_forhorde_01.ogg` |
-
-## Female common UI errors
-
-| FileDataID | Path |
-| --- | --- |
-| 542830 | `sound/character/tauren/taurenfemaleerrormessages/taurenfemale_err_nomana01.ogg` |
-| 542848 | `sound/character/tauren/taurenfemaleerrormessages/taurenfemale_err_nomana02.ogg` |
-| 542886 | `sound/character/tauren/taurenfemaleerrormessages/taurenfemale_err_nomana03.ogg` |
-| 542841 | `sound/character/tauren/taurenfemaleerrormessages/taurenfemale_err_spellcooldown03.ogg` |
-| 542869 | `sound/character/tauren/taurenfemaleerrormessages/taurenfemale_err_spellcooldown02.ogg` |
-| 542874 | `sound/character/tauren/taurenfemaleerrormessages/taurenfemale_err_spellcooldown01.ogg` |
-| 542831 | `sound/character/tauren/taurenfemaleerrormessages/taurenfemale_err_outofrange05.ogg` |
-| 542840 | `sound/character/tauren/taurenfemaleerrormessages/taurenfemale_err_outofrange04.ogg` |
-| 542858 | `sound/character/tauren/taurenfemaleerrormessages/taurenfemale_err_outofrange02.ogg` |
-| 542853 | `sound/character/tauren/taurenfemaleerrormessages/taurenfemale_err_bagfull01.ogg` |
-| 542857 | `sound/character/tauren/taurenfemaleerrormessages/taurenfemale_err_inventoryfull01.ogg` |
-| 542870 | `sound/character/tauren/taurenfemaleerrormessages/taurenfemale_err_inventoryfull02.ogg` |
-
 ## Full filtered export
 
 To regenerate a full Tauren sound-only candidate file:

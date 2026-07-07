@@ -21,21 +21,6 @@ VOICE_PACK = {
             "revive_01.mp3": "Ich stehe wieder.",
         },
     },
-    "female": {
-        "voice": "de-DE-KatjaNeural",
-        "rate": "-14%",
-        "pitch": "-18Hz",
-        "lines": {
-            "error_not_ready_01.mp3": "Ich bin noch nicht bereit.",
-            "error_no_mana_01.mp3": "Ich habe nicht genug Mana.",
-            "error_out_of_range_01.mp3": "Ich bin zu weit entfernt.",
-            "error_inventory_full_01.mp3": "Meine Taschen sind voll.",
-            "emote_train_01.mp3": "Tschu tschuu.",
-            "emote_charge_01.mp3": "Für die Horde!",
-            "death_01.mp3": "Uuuhh...",
-            "revive_01.mp3": "Ich stehe wieder.",
-        },
-    },
 }
 
 

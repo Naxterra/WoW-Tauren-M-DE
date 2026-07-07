@@ -10,7 +10,6 @@ param(
 $terms = @(
     "tauren",
     "taurenmale",
-    "taurenfemale",
     "vo_tauren",
     "character\tauren",
     "sound\creature\tauren"

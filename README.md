@@ -1,6 +1,6 @@
 # NaxVoiceDE
 
-NaxVoiceDE is a World of Warcraft addon scaffold for a German Tauren voice replacement project.
+NaxVoiceDE is a World of Warcraft addon for a German male Tauren voice replacement project.
 
 The addon keeps the German client intact. It mutes verified internal Tauren voice FileDataIDs with `MuteSoundFile` and plays replacement MP3 files from the addon folder with `PlaySoundFile`.
 
@@ -8,7 +8,7 @@ The addon keeps the German client intact. It mutes verified internal Tauren voic
 
 - Working addon structure.
 - AI-generated first-pass MP3 voice pack.
-- German Tauren male and female data tables.
+- German Tauren male data table.
 - Slash-command test harness.
 - UI error replay hooks for common German error messages.
 - Emote replay hook through `DoEmote`.
@@ -46,8 +46,8 @@ Then restart WoW or run `/reload`.
 
 ## Workflow
 
-1. Generate or record a replacement line into `NaxVoiceDE/Sounds/male` or `NaxVoiceDE/Sounds/female`.
-2. Add the sound path to `TaurenMale_DE.lua` or `TaurenFemale_DE.lua`.
+1. Generate or record a replacement line into `NaxVoiceDE/Sounds/male`.
+2. Add the sound path to `TaurenMale_DE.lua`.
 3. Find and verify the matching Blizzard German Tauren FileDataID.
 4. Add the FileDataID to the relevant `muteFileDataIDs` table.
 5. Test in game with `/reload`, `/naxvoice status`, and the relevant emote/error.

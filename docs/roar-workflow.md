@@ -12,12 +12,6 @@ For male Tauren:
 NaxVoiceDE/Sounds/male/emote_roar_01.mp3
 ```
 
-For female Tauren:
-
-```text
-NaxVoiceDE/Sounds/female/emote_roar_01.mp3
-```
-
 ## ElevenLabs sound effect prompt
 
 Use Sound Effects, not Text to Speech, if your ElevenLabs account allows it:
