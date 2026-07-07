@@ -1,0 +1,10 @@
+## Interface: 120007
+## Title: NaxVoiceDE
+## Notes: German Tauren voice mute and replacement layer.
+## Author: Nax
+## Version: 0.1.0
+## SavedVariables: NaxVoiceDEDB
+
+TaurenMale_DE.lua
+TaurenFemale_DE.lua
+Core.lua

@@ -1,0 +1,6 @@
+.venv/
+tauren-sound-candidates.tsv
+__pycache__/
+*.pyc
+xtts_test.wav
+reference.wav

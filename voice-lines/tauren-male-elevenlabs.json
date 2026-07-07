@@ -1,0 +1,127 @@
+{
+  "voice_settings": {
+    "stability": 0.32,
+    "similarity_boost": 0.68,
+    "style": 0.55,
+    "use_speaker_boost": true,
+    "speed": 0.9
+  },
+  "lines": [
+    {
+      "filename": "emote_flirt_01.mp3",
+      "text": "[trockenes amuesiertes Grollen] Du hast einen starken Geist."
+    },
+    {
+      "filename": "emote_laugh_01.mp3",
+      "text": "[tiefes Bauch lachen] Hah hah hah."
+    },
+    {
+      "filename": "emote_cry_01.mp3",
+      "text": "[schwere Trauer, tiefes Schluchzen] Uuhh..."
+    },
+    {
+      "filename": "emote_kiss_01.mp3",
+      "text": "[kurzer tiefer liebevoller Laut] Mwah."
+    },
+    {
+      "filename": "emote_chicken_01.mp3",
+      "text": "[tiefe spoettische Huhn-Imitation] Bok bok bok."
+    },
+    {
+      "filename": "emote_moo_01.mp3",
+      "text": "[riesiges tiefes Tauren-Muhen] Muuuh."
+    },
+    {
+      "filename": "emote_sigh_01.mp3",
+      "text": "[mueder schwerer Seufzer] Hhhh..."
+    },
+    {
+      "filename": "emote_yawn_01.mp3",
+      "text": "[tiefes muedes Gaehnen] Haaah..."
+    },
+    {
+      "filename": "emote_cheer_01.mp3",
+      "text": "[tiefer Jubelruf] Fuer die Horde!"
+    },
+    {
+      "filename": "emote_congratulate_01.mp3",
+      "text": "[ruhig anerkennend] Gut gemacht."
+    },
+    {
+      "filename": "emote_yes_01.mp3",
+      "text": "[kurz und tief] Ja."
+    },
+    {
+      "filename": "emote_no_01.mp3",
+      "text": "[kurz und streng] Nein."
+    },
+    {
+      "filename": "emote_help_01.mp3",
+      "text": "[dringend, tief] Ich brauche Hilfe."
+    },
+    {
+      "filename": "emote_followme_01.mp3",
+      "text": "[befehlend] Folgt mir."
+    },
+    {
+      "filename": "emote_wait_01.mp3",
+      "text": "[ruhiger Befehl] Wartet hier."
+    },
+    {
+      "filename": "emote_incoming_01.mp3",
+      "text": "[warnend] Feinde kommen."
+    },
+    {
+      "filename": "emote_flee_01.mp3",
+      "text": "[kurzer Befehl] Rueckzug!"
+    },
+    {
+      "filename": "emote_openfire_01.mp3",
+      "text": "[scharfer Befehl] Feuer frei!"
+    },
+    {
+      "filename": "emote_attackmytarget_01.mp3",
+      "text": "[befehlend] Greift mein Ziel an!"
+    },
+    {
+      "filename": "emote_healme_01.mp3",
+      "text": "[angespannt] Heilt mich!"
+    },
+    {
+      "filename": "emote_outofmana_01.mp3",
+      "text": "[frustriert, tief] Mein Mana ist verbraucht."
+    },
+    {
+      "filename": "emote_welcome_01.mp3",
+      "text": "[warm und tief] Gern geschehen."
+    },
+    {
+      "filename": "emote_raspberry_01.mp3",
+      "text": "[spoettisches Prusten] Pffrrt."
+    },
+    {
+      "filename": "emote_angry_01.mp3",
+      "text": "[bedrohlich, wütend] Du reizt meinen Zorn."
+    },
+    {
+      "filename": "emote_oops_01.mp3",
+      "text": "[tiefes trockenes Bedauern] Ups."
+    },
+    {
+      "filename": "emote_sorry_01.mp3",
+      "text": "[ernst und tief] Verzeih mir."
+    },
+    {
+      "filename": "emote_taunt_01.mp3",
+      "text": "[spöttisch und tief] Ist das alles?"
+    },
+    {
+      "filename": "emote_threaten_01.mp3",
+      "text": "[leise Drohung] Komm naeher, wenn du dich traust."
+    },
+    {
+      "filename": "emote_whoa_01.mp3",
+      "text": "[ueberrascht, tief] Whoa."
+    }
+  ]
+}
