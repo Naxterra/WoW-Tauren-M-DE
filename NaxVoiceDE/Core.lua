@@ -478,6 +478,24 @@ local function FindUIErrorKey(message)
     end
 end
 
+local function IsGameErrorSpeechEnabled()
+    if type(GetCVarBool) == "function" then
+        local enabled = GetCVarBool("Sound_EnableErrorSpeech")
+        if enabled ~= nil then
+            return enabled
+        end
+    end
+
+    if type(GetCVar) == "function" then
+        local enabled = GetCVar("Sound_EnableErrorSpeech")
+        if enabled ~= nil then
+            return enabled == "1" or enabled == 1 or enabled == true
+        end
+    end
+
+    return true
+end
+
 local function NormalizeTextPattern(text)
     if type(text) ~= "string" then
         return
@@ -556,6 +574,11 @@ end
 
 local function HandleUIErrorMessage(...)
     if not db or not db.replaceUIErrors then
+        return
+    end
+
+    if not IsGameErrorSpeechEnabled() then
+        Debug("Skipped UI error replacement because WoW error speech is disabled.")
         return
     end
 
@@ -706,13 +729,16 @@ local function PrintStatus()
         .. ", player=" .. tostring(raceFile) .. "/" .. tostring(sex)
         .. ", active=" .. (activeVoiceSet and activeVoiceSet.label or "none")
         .. ", scope=" .. db.scope
-        .. ", muteIDs=" .. CountMutedIDs())
+        .. ", muteIDs=" .. CountMutedIDs()
+        .. ", uiErrors=" .. tostring(db.replaceUIErrors)
+        .. ", wowErrorSpeech=" .. tostring(IsGameErrorSpeechEnabled()))
 end
 
 local function PrintHelp()
     Print("/naxvoice status")
     Print("/naxvoice on | off")
     Print("/naxvoice mute | unmute | remute")
+    Print("/naxvoice errors on | off")
     Print("/naxvoice scope player | tauren")
     Print("/naxvoice test ready|mana|range|bags|roar|train|charge|hallo|tschuess|danke|flirt")
     Print("/naxvoice test lachen|weinen|kuss|huhn|muh|seufzen|gaehnen|ja|nein|hilfe|jubeln")
@@ -743,6 +769,16 @@ local function HandleSlashCommand(input)
     elseif command == "unmute" then
         db.muteEnabled = false
         UnmuteConfiguredSounds()
+    elseif command == "errors" then
+        if rest == "on" then
+            db.replaceUIErrors = true
+            Print("UI error replacements enabled. WoW's Audiofehlermeldungen setting is still respected.")
+        elseif rest == "off" then
+            db.replaceUIErrors = false
+            Print("UI error replacements disabled.")
+        else
+            Print("UI error replacements are " .. (db.replaceUIErrors and "enabled" or "disabled") .. ". Use /naxvoice errors on or /naxvoice errors off.")
+        end
     elseif command == "scope" then
         if rest == "player" or rest == "tauren" then
             db.scope = rest
