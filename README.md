@@ -61,3 +61,7 @@ WoW addons cannot replace Blizzard sound files directly. This project is intenti
 ## Audio attribution
 
 Voice audio in this repository was generated with ElevenLabs. elevenlabs.io
+
+## License
+
+This software is under the Nax Source-Available License 1.0. You may install and use the official release builds, privately and at work, and you may read the source code. Modifying the software, redistributing it and selling it need the written permission of the owner. See [LICENSE](LICENSE).
